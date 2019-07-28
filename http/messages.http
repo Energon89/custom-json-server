@@ -1,10 +1,16 @@
-GET http://localhost:3000/settings
+GET http://localhost:3000/messages
 
 ###
 
-PUT http://localhost:3000/settings
+POST http://localhost:3000/messages
 Content-Type: application/json
 
 {
-    "background": {"color": "green"}
+    "name": "UserName1",
+    "text": "MessageText1111",
 }
+
+###
+
+DELETE http://localhost:3000/messages/4
+Content-Type: application/json

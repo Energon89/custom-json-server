@@ -12,11 +12,12 @@ Content-Type: application/json
 
 ###
 
-POST http://localhost:3000/users
+PATCH  http://localhost:3000/users
 Content-Type: application/json
 
 {
-    "name": "Stan"
+    "name": "UserName6",
+    "password": "password6"
 }
 
 ###
@@ -25,7 +26,8 @@ PUT http://localhost:3000/users/2
 Content-Type: application/json
 
 {
-    "name": "Vlad"
+    "name": "UserName6",
+    "password": "password6"
 }
 
 ###
